@@ -18,7 +18,7 @@
         compatible = "zmk,keymap";
 
         DVORAK {
-            display-name = "EXTRA 3";
+            display-name = "DVORAK";
             bindings = <
   &kp COMMA  &kp DOT  &kp P   &kp Y   &kp F      &trans  &trans  &kp G      &kp C   &kp R   &kp L  &kp BSPC
   &kp A      &kp O    &kp E   &kp U   &kp I      &trans  &trans  &kp D      &kp H   &kp T   &kp N  &kp S
