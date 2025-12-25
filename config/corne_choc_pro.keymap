@@ -59,7 +59,7 @@
   &kp SQT   &kp COMMA  &kp PERIOD  &kp P                   &kp Y      &trans  &trans  &kp F      &kp G                    &kp C                      &kp R  &kp L
   &kp A     &kp O      &kp E       &HMShiftL LEFT_SHIFT U  &kp I      &trans  &trans  &kp D      &HMShiftR RIGHT_SHIFT H  &kp T                      &kp N  &kp S
   &kp SEMI  &kp Q      &kp J       &kp K                   &kp X                      &kp B      &kp M                    &kp W                      &kp V  &kp Z
-                       &trans      &trans                  &kp SPACE                  &kp ENTER  &trans                   &longPress RGUI BACKSPACE
+                       &trans      &lt 1 LEFT_SHIFT        &kp SPACE                  &kp ENTER  &lt 2 LEFT_CONTROL       &longPress RGUI BACKSPACE
             >;
         };
 
