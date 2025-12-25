@@ -56,10 +56,10 @@
         DVORAK {
             display-name = "DVORAK";
             bindings = <
-  &kp SQT   &kp COMMA  &kp PERIOD  &kp P                   &kp Y      &trans  &trans  &kp F      &kp G                    &kp C                      &kp R  &kp L
-  &kp A     &kp O      &kp E       &HMShiftL LEFT_SHIFT U  &kp I      &trans  &trans  &kp D      &HMShiftR RIGHT_SHIFT H  &kp T                      &kp N  &kp S
-  &kp SEMI  &kp Q      &kp J       &kp K                   &kp X                      &kp B      &kp M                    &kp W                      &kp V  &kp Z
-                       &trans      &lt 1 LEFT_SHIFT        &kp SPACE                  &kp ENTER  &lt 2 LEFT_CONTROL       &longPress RGUI BACKSPACE
+  &kp SQT   &kp COMMA  &kp PERIOD        &kp P                   &kp Y      &trans  &trans  &kp F      &kp G                    &kp C                      &kp R  &kp L
+  &kp A     &kp O      &kp E             &HMShiftL LEFT_SHIFT U  &kp I      &trans  &trans  &kp D      &HMShiftR RIGHT_SHIFT H  &kp T                      &kp N  &kp S
+  &kp SEMI  &kp Q      &kp J             &kp K                   &kp X                      &kp B      &kp M                    &kp W                      &kp V  &kp Z
+                       &kp LEFT_COMMAND  &lt 1 LEFT_SHIFT        &kp SPACE                  &kp ENTER  &lt 2 LEFT_CONTROL       &longPress RGUI BACKSPACE
             >;
         };
 
@@ -73,10 +73,10 @@
             //                    | GUI |     | SPC   |        | ENT   |     | ALT |
 
             bindings = <
-  &kp N1        &kp N2           &kp N3        &kp N4        &kp N5          &kp LCTRL  &kp RCTRL  &kp N6    &kp N7    &kp N8     &kp N9     &kp N0
-  &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LALT   &kp RALT   &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT  &trans
-  &bt BT_CLR    &rgb_ug RGB_TOG  &sys_reset    &bootloader   &studio_unlock                        &trans    &trans    &trans     &trans     &trans
-                                 &kp LGUI      &trans        &kp SPACE                             &kp LGUI  &trans    &kp SPACE
+  &kp N1        &kp N2           &kp N3           &kp N4           &kp N5          &none  &none  &kp N6    &kp N7    &kp N8     &kp N9     &kp N0
+  &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4    &none  &none  &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT  &trans
+  &bt BT_CLR    &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &studio_unlock                &trans    &trans    &trans     &trans     &trans
+                                 &kp LGUI         &trans           &kp SPACE                     &kp LGUI  &trans    &kp SPACE
             >;
         };
 
@@ -90,10 +90,10 @@
             //                    | GUI |     | SPC |               | ENT |     | ALT |
 
             bindings = <
-  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp LCTRL  &kp RCTRL  &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR
-  &trans    &trans  &trans    &trans    &trans     &kp LALT   &kp RALT   &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH
-  &trans    &trans  &trans    &trans    &trans                           &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE
-                    &kp LGUI  &trans    &kp SPACE                        &kp RET    &trans     &kp RALT
+  &kp EXCL   &kp AT            &kp HASH        &kp DLLR              &kp PRCNT  &none  &none  &kp CARET  &kp AMPS               &kp ASTRK        &kp LPAR  &kp RPAR
+  &kp GRAVE  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp TILDE  &none  &none  &kp MINUS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RBKT  &kp BSLH
+  &trans     &trans            &trans          &trans                &trans                   &kp UNDER  &kp PLUS               &kp EQUAL        &kp RBRC  &kp PIPE
+                               &kp LGUI        &trans                &kp SPACE                &kp RET    &trans                 &kp RALT
             >;
         };
 
