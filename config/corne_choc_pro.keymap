@@ -90,7 +90,7 @@
             //                    | GUI |     | SPC |               | ENT |     | ALT |
 
             bindings = <
-  &kp EXCL   &kp AT            &kp HASH        &kp DLLR              &kp PRCNT  &none  &none  &kp CARET  &kp AMPS               &kp ASTRK        &kp SLASH  &trans
+  &kp EXCL   &kp AT            &kp HASH        &kp DLLR              &kp PRCNT  &none  &none  &kp CARET  &kp AMPS               &kp ASTRK        &kp SLASH  &kp QMARK
   &kp SLASH  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp TILDE  &none  &none  &kp MINUS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RBKT   &kp BSLH
   &kp GRAVE  &trans            &trans          &trans                &trans                   &kp UNDER  &kp PLUS               &kp EQUAL        &kp RBRC   &kp PIPE
                                &kp LGUI        &trans                &kp SPACE                &kp RET    &trans                 &kp RALT
