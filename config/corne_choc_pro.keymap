@@ -25,6 +25,7 @@
             tapping-term-ms = <200>;
             hold-while-undecided;
             hold-trigger-on-release;
+            flavor = "tap-preferred";
         };
 
         HMShiftL: HMShiftL {
@@ -37,6 +38,7 @@
             hold-while-undecided;
             hold-trigger-on-release;
             hold-trigger-key-positions = <6 7 8 9 10 11 18 19 20 21 22 23 29 30 31 32 33 37 38 39>;
+            flavor = "tap-preferred";
         };
 
         longPress: longPress {
@@ -73,10 +75,10 @@
             //                    | GUI |     | SPC   |        | ENT   |     | ALT |
 
             bindings = <
-  &kp N1        &kp N2           &kp N3           &kp N4           &kp N5          &none  &none  &kp N6    &kp N7    &kp N8     &kp N9     &kp N0
-  &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4    &none  &none  &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT  &kp ESCAPE
-  &bt BT_CLR    &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &studio_unlock                &trans    &trans    &trans     &trans     &trans
-                                 &kp LGUI         &trans           &kp SPACE                     &kp LGUI  &trans    &kp SPACE
+  &kp N1        &kp N2           &kp N3           &kp N4           &kp N5          &none  &none  &kp N6    &kp N7    &kp N8  &kp N9     &kp N0
+  &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4    &none  &none  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp ESCAPE
+  &bt BT_CLR    &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &studio_unlock                &trans    &trans    &trans  &trans     &trans
+                                 &kp LGUI         &trans           &kp SPACE                     &kp LGUI  &trans    &trans
             >;
         };
 
