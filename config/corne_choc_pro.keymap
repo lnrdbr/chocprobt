@@ -102,9 +102,9 @@
         Controll {
             display-name = "EXTRA 1";
             bindings = <
-  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(NUMBER_3)  &kp LA(NUMBER_4)  &kp LA(N5)  &trans  &trans  &kp LA(NUMBER_6)  &kp LA(N7)  &kp LA(N8)  &kp LA(N9)  &kp L
-  &kp A             &kp O             &trans            &trans            &trans      &trans  &trans  &kp LS(F)         &kp H       &trans      &kp N       &kp LS(S)
-  &trans            &trans            &kp J             &kp K             &trans                      &trans            &trans      &trans      &trans      &trans
+  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(NUMBER_3)  &kp LA(NUMBER_4)  &kp LA(N5)  &trans  &trans  &kp LA(NUMBER_6)  &kp LA(N7)  &kp LA(N8)  &kp LA(N9)  &kp LA(L)
+  &kp LA(A)         &kp LA(O)         &trans            &trans            &trans      &trans  &trans  &kp LS(LA(F))     &kp LA(H)   &trans      &kp LA(N)   &kp LS(LA(S))
+  &trans            &trans            &kp LA(J)         &kp LA(K)         &trans                      &trans            &trans      &trans      &trans      &trans
                                       &trans            &trans            &trans                      &trans            &trans      &trans
             >;
         };
