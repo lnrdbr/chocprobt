@@ -103,7 +103,7 @@
             display-name = "EXTRA 1";
             bindings = <
   &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(NUMBER_3)  &kp LA(NUMBER_4)  &kp LA(N5)  &trans  &trans  &kp LA(NUMBER_6)  &kp LA(N7)  &kp LA(N8)  &kp LA(N9)  &kp L
-  &kp A             &kp O             &trans            &trans            &trans      &trans  &trans  &trans            &kp H       &trans      &kp N       &kp LS(S)
+  &kp A             &kp O             &trans            &trans            &trans      &trans  &trans  &kp LS(F)         &kp H       &trans      &kp N       &kp LS(S)
   &trans            &trans            &kp J             &kp K             &trans                      &trans            &trans      &trans      &trans      &trans
                                       &trans            &trans            &trans                      &trans            &trans      &trans
             >;
